@@ -3,11 +3,6 @@
 查询Linux命令
 
 例站：[Linux命令搜索引擎(kenvie.com)](https://linux.kenvie.com/)
-# Linux - command 查询Linux命令
-
-查询Linux命令
-
-例站：[Linux命令搜索引擎(kenvie.com)](https://linux.kenvie.com/)
 
 ### 首页
 
@@ -21,5 +16,4 @@
 
 ![内容页](https://img.keai.cool/img/202205142304750.png)
 
-博客：[kenvie.com](https://kenvie.com)
 博客：[kenvie.com](https://kenvie.com)
