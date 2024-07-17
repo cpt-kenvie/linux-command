@@ -312,7 +312,7 @@ a:active {
   font-family: inherit;
   font-size: 14px;
   border-radius: 0;
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 .header .search .enter-input button:focus,

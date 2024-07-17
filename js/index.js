@@ -9,8 +9,8 @@
       (this.elm_search_result = t("search_list_result")),
       (this.root_path =
         ((t = t("current_path")),
-        (e = window.location.origin + window.location.pathname),
-        t ? e.replace(/\/(c\/)?(\w|-)+\.html/, "").replace(/\/$/, "") : "")),
+          (e = window.location.origin + window.location.pathname),
+          t ? e.replace(/\/(c\/)?(\w|-)+\.html/, "").replace(/\/$/, "") : "")),
       (this.query = ""),
       (this.query_size = 5),
       (this.page_size = 50),
@@ -62,16 +62,16 @@
         t =
           (t &&
             ((s = e.n.replace(i, '<i class="kw">$1</i>')),
-            (r = e.d.replace(i, '<i class="kw">$1</i>') || "")),
-          this.root_path.replace(/\/$/, ""));
+              (r = e.d.replace(i, '<i class="kw">$1</i>') || "")),
+            this.root_path.replace(/\/$/, ""));
       return this.simple(
         n
           ? '<a href="' +
-              t +
-              '/c$url$.html"><strong>$name$</strong> - $des$</a><p></p>'
+          t +
+          '/c$url$.html"><strong>$name$</strong> - $des$</a><p></p>'
           : '<a href="' +
-              t +
-              '/c$url$.html"><strong>$name$</strong> - $des$</a>',
+          t +
+          '/c$url$.html"><strong>$name$</strong> - $des$</a>',
         { name: s, url: e.p, des: r }
       );
     },
@@ -98,11 +98,11 @@
         a.sort(function (e, t) {
           return e.nIdx - t.nIdx;
         }),
-          o.sort(function (e, t) {
-            return e.nIdx - t.nIdx;
-          }),
-          l = (l = a.concat(o)).slice(0, u),
-          s = 0;
+        o.sort(function (e, t) {
+          return e.nIdx - t.nIdx;
+        }),
+        l = (l = a.concat(o)).slice(0, u),
+        s = 0;
         s < l.length;
         s++
       )
@@ -114,7 +114,7 @@
       0 === i.length &&
         (((p = document.createElement("LI")).innerHTML =
           (this.query, "请尝试输入一些字符，进行搜索！</span>")),
-        m.appendChild(p));
+          m.appendChild(p));
     },
     selectedResult: function (e) {
       for (var t = this.elm_result.children, n = 0, s = 0; s < t.length; s++)
@@ -151,7 +151,7 @@
             n.elm_search_result
               ? n.searchResult(!0)
               : (window.location.href =
-                  n.root_path + "/list.html#!kw=" + n.query);
+                n.root_path + "/list.html#!kw=" + n.query);
         }),
         this.bindEvent(this.elm_query, "focus", function (e) {
           n.searchResult(), n.query && (n.elm_result.style.display = "block");
