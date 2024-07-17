@@ -5,4 +5,4 @@
 * 博客：[kenvie.com](https://kenvie.com)
 
 
-![img](.\img.png)
+![img](https://github.com/cpt-kenvie/linux-command/blob/master/img.png?raw=true)
